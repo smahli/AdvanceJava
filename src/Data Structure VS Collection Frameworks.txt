@@ -1,0 +1,67 @@
+Data Structure 
+___________________
+
+Data Structure and Algorithm : It is the way by which we can store the data in efficient(Time and space or compelexity) way 
+
+				Type of Data Structure 
+		
+		1.Primitive DataStructure        2. Non Primitive Data Structure 
+							1. Linear Data Structure and 2. Non Linear Data Structure 
+
+		1. boolean 			
+		2. char
+		3. byte, short,int ,long
+		4.double,float 
+
+
+		it can be used in applictaions like Calculators and Currency convertors 
+
+	1.Linear Data Structure 
+		1.String 
+		2.Arrays 
+		3.List, Set, Queue
+		4. AL, LL, HS, LHS etc
+
+	2. Non Linear Data Structure 
+		1.Graph
+		2.Trees
+
+It can be used in E- Commerce Websites , Social Network Websites Banking Apps etc
+
+Array
+____________
+
+1. Arrays can store primittive and non Primitive(Objects ) types of data 
+example
+	int [] a = {10,2,56,42};    primitive
+
+	class Test{
+	
+	// lines of code 
+	}
+	
+	Test[] t = {t1,t2,t3,t6};  // non primitive
+
+2.Arrays can store only homogenius type of data 
+
+3.Array size is fixed . we cannot increase and decrease size of array at runtime
+
+4. Arrays are inbuilt feature of Java we have to develop algorithms 
+
+
+COLLECTION FRAMEWORK
+_______________________
+
+1. It is part of Non Primitive DataStructures 
+2.Collection framework can contain only non-primitive type of data
+Arralist al = new Arraylist();
+al.add(obj1);
+al.add('z')
+
+
+
+
+3.We can store heterogenius types of data 
+4. We can increase or decrease size of collection at the run time;
+
+5.collection framework is an API which provides predifined classes, interfaces and Methods 
