@@ -1,0 +1,225 @@
+JDBC
+_______________
+
+Java Database Connectivity
+It is a Technology which is used to connect java apllication with Database
+
+JDBC is an API which provides some classes and interfaces by which we can connect Java Aplication with database
+
+JDBC APT has Two packages Java.sql and javax.sql
+
+
+Java.sql
+	Interface		Class
+	Driver			DriverManager
+	Connection		Date
+	statemeny		Time
+	PreparedStatement	TimeStamp
+	CollableStatement	Types
+	ResultSet
+
+Javax.sql
+	Interface	Classs
+
+	Datasource	RowsetEvent
+	RowSet		ConnectEvent
+	RowsetListener	etc
+
+
+JDBC is an abstaction which is provided by SunMicrosystems & implemented by Databases Vendors(MySQL ORACLE etc)
+
+
+JDBC SYLLABUS
+_____________
+
+1.DATABASE
+
+
+	1. What is the data and Information 
+	2. What is the database 
+	3. Types of Database
+	4. What is DBMS and RDBMS 
+
+2. SQL
+	1. What is SQL
+	2. SQL data Types 
+	3. SQL operators 
+	4. Types of SQL commands 
+	5. DDL(Data Definition Language) for Example Create alter drop rename truncate
+	6.DML (Data Manipulation Language) insert, delete, update, call
+	7.Stored Procedures 
+	8. DQL (Data Query Language)  Select
+	9.SQL Joins
+3. JDBC prequisite
+	1.Control statement's
+	2. OOP's statement
+	3.Execptiopn Handling
+	4. MultiThreading
+	5.Java I/O Package
+	6.Collections 
+	7.Different ways to take user INputs
+
+
+4.JDBS Introduction
+	1.What is JDBC
+	2.History and Version of JDBC
+	3. Features of JDBC
+	4.Working of JDBC
+	5.JDBC Components
+	6.Steps to Develop JDBC Apllication
+	7. JDBC architecture
+5. JDBC Types of Drivers
+	1.What is a driver 
+	2.Types of Drivers 
+	3. Types 1,2,3,4, Drivers
+	4.Architecture of Drivers 
+	5.Description of Drivers
+	6.Advantages and Disadvanteges of each driver
+	7. Working with MySQL and ORACLE
+6.WORKING with JDBC Practicle Part 1
+	1. Working with JDBC in netbeans(IDE ) and SQL Database
+	2. Working with JDBC in Eclipse (IDE ) and SQL Database
+
+7. WORKING with JDBC Practicle (Part 2)
+	`1. How to downlaod and install Oracle database 
+	 2. Working with JDBC in Netbeans and ORACLE Database
+	 3. Working with JDBC in Eclipse and ORACLE Database
+
+
+8.Expalantion of Class.forName("--");
+	1.Previous tutorial task completed 
+	2. What is class,forName("---");
+	3.Methods of Class class
+	4. How and When to use it
+
+
+9.JDBC API(Java.sql Package)
+	1.In paint show java.sql package with program
+	2.Explain each and every interface and classes with methods 
+
+
+10. Deep working of Java Application with Database
+	1.In paint show java.sql package with program, also show model classes in paint by craeting table
+	2.Explain each and every interface and classes with methods 
+	3. Show jar files import oracle and MySQL in different projects 
+
+
+11. JDBC Interview Questions 
+	1. Program for select insert update and delete queries
+	2. provide task on user input 1,2,3,4 edit update delete insert 5 exit ,ok
+	3.difference between execute(), executeQuery() & executeUpdate() with programs
+	
+12. PreparedStaements Concepts
+	1.What is PreparedStatements 
+	2.when we should use Preparedstatements
+	3.Working of Preparedstatements
+	4.Programs for select, insert , update and delete
+	
+
+13. CallableStatements with Stored Procedure (Part 1)
+	1. What is CallableStatement 
+	2. Craete stored Procedure 
+	3. Steps to develop CallableStatement programs 
+	4. CallableStatements programs with stored prosedures 
+
+14.CallableStatements with Stored Procedure (Part 2)
+	1.Deep Expalanation of CallableStatements
+	2. Stored Functions 
+	3. programs for stored functions 
+	4.Difference between stored procedure and functions 
+
+15. ResultSet Types (Theroy)
+	1. ResultSet Introduction
+	2. ResultSet Types 
+	3. ResultSet Methods 
+	
+16. ResultSet Types(Practicle)
+	1. ResultSet Programs 
+	2. ResultSet Types
+	3. Diffrence Between Forward only(Non- scrollable ) and Scrollable 
+	4. Difference between Scroll Sensitive and Scroll Insensictive
+	
+17. Database connection Different approach
+	1. Try catch finally approach
+	2.Try with resource approach
+	3. different connection class approach
+	4. Singelton class approach
+	5. Properties file JDBC connection approach
+18. Transaction MANAGEMENT(Theory)
+	1.What is transaction
+	2.Types of transaction
+	3.properties of transcation
+	4. How to implement transaction in JBDC
+
+19.Transaction Management(Practicle)
+	1.Implementation of transaction management using program
+	2. Bank application
+	3. savepoint interface
+	4.Transaction inconsistency problem
+	5.Isolation levels
+
+20. Batch Updation and SQL Injection
+	1.what is Batch Updation 
+	2. Methods of Batch updation 
+	3. programs using staements and preparedStatements and Internal Working of batch updation
+	4. Advantages and Disadvantages of Batch Updations
+	5. What is SQL Injection Attack
+	6.Program violating security in login form 
+	7. How to prevent SQL injection attack
+	
+21.MetaData & Date / Time / Timestamp in JAva 
+	1. What is MetaData
+	2. Types of Metadata
+	3. Date, Time and TimeStamp
+	
+22. BLOB and CLOB
+	1. What is BLOB and CLOB
+	2.difference between BLOB and CLOB
+	3.program for inserting and retrieving images and files from database
+23. Connection pooling 
+	1.different ways to get connection object
+	2.Drawbacks of DriverManager
+	3.What is connection Pooling 
+	4. How connection Pooling works 
+	5. What is DataSource
+	6. different ways of provide connection Pooling
+
+24. RowSet
+	1.What is RowSet
+	2.Syntax and method of RowSet
+	3. difference between ResultSet and RowSet
+	4.RowSetProgram
+	5.Types of RowSet
+	6. Heirarchy of RowSet
+	7.JDBCRowSet with program select insert update and delet
+	8. CachedRowSet
+	9.Diffrent ways to get CachedRowSet object
+	10.programs to check ResultSet and JDBCRowSet is connected and cachedRowSet is dissconnected 
+	11. CachedRoeSet Programs( select insert update and delete)
+	12.WebRowSet
+	13. WebRowSet Programs(select insert update and delete)
+	14. JoinRowSet
+	15.JoinRowSet programs 
+
+25. RowId
+	1. Rowid
+	2.RpwId Life time
+	3. RowId and RowIdLifeTime Programs 
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+for Example
+
